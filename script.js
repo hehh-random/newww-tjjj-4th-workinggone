@@ -5,205 +5,82 @@ REASONS
 ========================= */
 
 const reasons = [
-"Because your smile can brighten even my darkest day ❤️",
-
-"Because hearing your voice instantly makes me happier ❤️",
-
-"Because you make ordinary moments feel magical ❤️",
-
-"Because you always know how to make me laugh ❤️",
-
-"Because being around you feels like home ❤️",
-
-"Because your kindness inspires me ❤️",
-
-"Because you make me want to be a better person ❤️",
-
-"Because your happiness matters to me ❤️",
-
-"Because you believe in me even when I doubt myself ❤️",
-
-"Because every day with you feels special ❤️",
-
-"Because your laugh is my favorite sound ❤️",
-
-"Because you make difficult days easier ❤️",
-
-"Because you are beautiful inside and out ❤️",
-
-"Because you care deeply about the people you love ❤️",
-
-"Because you make me feel understood ❤️",
-
-"Because your hugs feel safe ❤️",
-
-"Because your eyes tell stories words cannot ❤️",
-
-"Because you bring warmth wherever you go ❤️",
-
-"Because you always try your best ❤️",
-
-"Because you make life more exciting ❤️",
-
-"Because you remember the little things ❤️",
-
-"Because you make me smile without trying ❤️",
-
-"Because you have the kindest heart ❤️",
-
-"Because you make every memory better ❤️",
-
-"Because you are wonderfully unique ❤️",
-
-"Because your presence calms me ❤️",
-
-"Because you make me feel lucky every day ❤️",
-
-"Because I can be myself around you ❤️",
-
-"Because you make even boring moments fun ❤️",
-
-"Because your love makes me stronger ❤️",
-
-"Because you always know how to comfort me ❤️",
-
-"Because your dreams inspire me ❤️",
-
-"Because your determination amazes me ❤️",
-
-"Because you make me feel appreciated ❤️",
-
-"Because you bring light wherever you go ❤️",
-
-"Because you make me laugh when I need it most ❤️",
-
-"Because your smile is contagious ❤️",
-
-"Because your heart is pure ❤️",
-
-"Because you make every season feel beautiful ❤️",
-
-"Because every conversation with you means something ❤️",
-
-"Because you understand me in ways nobody else does ❤️",
-
-"Because your excitement makes everything better ❤️",
-
-"Because you make me look forward to tomorrow ❤️",
-
-"Because your support means the world to me ❤️",
-
-"Because you never stop caring ❤️",
-
-"Because you make me feel seen ❤️",
-
-"Because your presence is comforting ❤️",
-
-"Because your love feels genuine ❤️",
-
-"Because you make ordinary days unforgettable ❤️",
-
-"Because you are my favorite notification ❤️",
-
-"Because you are worth every mile, minute, and memory ❤️",
-
-"Because you make my heart race in the best way ❤️",
-
-"Because your happiness feels like my happiness ❤️",
-
-"Because you are thoughtful ❤️",
-
-"Because you make me believe in love ❤️",
-
-"Because you make every day brighter ❤️",
-
-"Because your voice can calm any storm ❤️",
-
-"Because your laughter is unforgettable ❤️",
-
-"Because your soul is beautiful ❤️",
-
-"Because you always leave things better than you found them ❤️",
-
-"Because you make me feel safe ❤️",
-
-"Because your love feels effortless ❤️",
-
-"Because you never fail to surprise me ❤️",
-
-"Because your heart is full of compassion ❤️",
-
-"Because you make me feel important ❤️",
-
-"Because you always know how to cheer me up ❤️",
-
-"Because you make me feel at peace ❤️",
-
-"Because every memory with you is precious ❤️",
-
-"Because you inspire me to dream bigger ❤️",
-
-"Because you make life feel meaningful ❤️",
-
-"Because you are one of my favorite people in the world ❤️",
-
-"Because you make every place feel better ❤️",
-
-"Because your smile deserves to be protected forever ❤️",
-
-"Because you make me feel loved ❤️",
-
-"Because your existence makes the world brighter ❤️",
-
-"Because you are patient ❤️",
-
-"Because you are thoughtful ❤️",
-
-"Because your heart is incredibly beautiful ❤️",
-
-"Because you always try to understand ❤️",
-
-"Because you make me excited about the future ❤️",
-
-"Because your affection feels genuine ❤️",
-
-"Because you make me laugh until my cheeks hurt ❤️",
-
-"Because you make every day feel like a gift ❤️",
-
-"Because you care about the people around you ❤️",
-
-"Because your smile is unforgettable ❤️",
-
-"Because you make me feel special ❤️",
-
-"Because your kindness changes lives ❤️",
-
-"Because your presence is enough ❤️",
-
-"Because you make me grateful every day ❤️",
-
-"Because loving you feels natural ❤️",
-
-"Because every chapter of my life is better with you in it ❤️",
-
-"Because you are my favorite thought ❤️",
-
-"Because you make my heart feel full ❤️",
-
-"Because you make life worth celebrating ❤️",
-
-"Because every day I find another reason to love you ❤️",
-
-"Because you are you ❤️",
-
-"Because you make the world feel softer ❤️",
-
-"Because you are my happy place ❤️",
-
-"Because no list could ever truly contain all the reasons ❤️",
-
-"Because even after 100 reasons, I still have infinitely more to tell you ❤️"
+"Teju, tu itna calm hai ki meri pura drama bhi shaant ho jata hai 😭❤️",
+"Kyuki tu hamesha mujhe handle karta hai even when I act crazy 😤❤️",
+"Free Fire me tu mera teammate nahi, mera backbone hai 🎮❤️",
+"Hum hamesha ladte hain… but end me tu hi mujhe mana leta hai 🥺",
+"Teri voice sunke hi mera mood 100x better ho jata hai 🎧❤️",
+"Tu mujhe overthink karne se rok leta hai bina kuch bole 💭❤️",
+"Isha ka drama + Teju ka calm = perfect chaos combo 😭❤️",
+"Kyuki tu mujhe hamesha importance deta hai even when I act rude 😤❤️",
+"Tu protect karta hai mujhe, even from my own thoughts 🫶",
+"Hum dono toxic nahi… bas thode pagal hain ek dusre ke liye 🤭",
+"Tu hamesha bolta hai ‘chill kar Isha’ aur main actually chill ho jati hoon 😭",
+"Free Fire me tu mujhe revive karta hai, real life me bhi 💕",
+"Kyuki tu meri har nonsense baat sun leta hai 😭❤️",
+"Tu mujhe itna janta hai jitna main khud ko nahi janti 🥺",
+"Hum ladte hain for no reason… but pyar bhi wahi se strong hota hai ❤️",
+"Tu hamesha meri side leta hai even when I’m wrong 😤❤️",
+"Kyuki tu mujhe overprotective cute way me care karta hai 🫶",
+"Tere saath silence bhi comfortable lagta hai 😌❤️",
+"Tu meri mood swings ko bhi tolerate kar leta hai 😭",
+"Isha ka attitude + Teju ka patience = legendary love story 💀❤️",
+"Tu mujhe ignore nahi karta, even when I act annoying 😤",
+"Kyuki tu mera safe place hai without even trying 🥺",
+"Free Fire win ya loss… tere saath sab fun lagta hai 🎮❤️",
+"Tu mujhe ‘pagal’ bolta hai but still loves me 🤭",
+"Hum dono ka fight = 5 min ka drama + lifetime ka patch-up 😂",
+"Tu mujhe hamesha samajhne ki koshish karta hai ❤️",
+"Kyuki tu meri overthinking ko bhi handle kar leta hai 🫶",
+"Tu mujhe hamesha priority feel karwata hai 🥺",
+"Main kitni bhi messy hoon, tu phir bhi stay karta hai 😭",
+"Tu meri har silly jealousy ko cute bana deta hai 🤭❤️",
+"Kyuki tu mujhe ‘Isha’ kehke itna special feel karwata hai 💕",
+"Teju + Isha = chaotic but real ❤️",
+"Tu mujhe hamesha calm kar deta hai bina lecture diye 😌",
+"Hum dono ka ego clash hota hai… but pyar stronger hai 🫶",
+"Kyuki tu mujhe kabhi replace nahi karta 💔➡️❤️",
+"Tu mera gamer partner bhi hai aur life partner vibes bhi 🎮",
+"Tu mujhe hamesha smile karwa deta hai even on bad days 🥺",
+"Kyuki tu mera emotional support ban gaya hai without trying ❤️",
+"Hum ladte hain, block-unblock nahi… bas mana lete hain 😭",
+"Tu mujhe hamesha feel karwata hai ki I matter 🫶",
+"Kyuki tu meri har stupid baat ko seriously leta hai 🤭",
+"Tu mujhe ‘over dramatic queen’ bolta hai but still loves me 👑",
+"Teju, tu mera calm in chaos hai 🌪️❤️",
+"Tu mujhe kabhi akela feel nahi hone deta 🥺",
+"Kyuki tu mera protector bhi hai aur best friend bhi 🫶",
+"Hum dono ka love thoda messy hai… but real hai ❤️",
+"Tu mujhe hamesha soft bana deta hai even when I’m angry 😭",
+"Kyuki tu mujhe hamesha choose karta hai ❤️",
+"Free Fire me bhi aur real life me bhi 🎮",
+"Tu meri har weakness ko handle karta hai 💕",
+"Kyuki tu mera ghar jaisa feel deta hai 🏡❤️",
+"Hum dono ka bond toxic nahi… just intense hai 😭",
+"Tu mujhe hamesha ‘calm down baby’ bolta hai 🥺",
+"Kyuki tu meri duniya ka sabse safe person hai ❤️",
+"Tu meri har fight ke baad bhi stay karta hai 🫶",
+"Kyuki tu mujhe bina condition ke accept karta hai 😭",
+"Tu mera Teju… aur main teri Isha 💕",
+"Hum dono ka love story simple nahi… but ours hai ❤️",
+"Tu mujhe hamesha special feel karwata hai 🥺",
+"Kyuki tu meri har bakwaas sun leta hai 🤭",
+"Tu mera favorite teammate hai life ka 🎮❤️",
+"Hum ladte hain daily… but miss bhi daily karte hain 😭",
+"Kyuki tu mujhe kabhi give up nahi karta 🫶",
+"Tu mera emotional anchor hai 🌊❤️",
+"Tu mujhe hamesha safe feel karwata hai 🥺",
+"Kyuki tu mera calm aur chaos dono hai 💕",
+"Tu meri har silly fight ke baad bhi pyaar karta hai 😭",
+"Hum dono ka bond explain nahi ho sakta… bas feel hota hai ❤️",
+"Kyuki tu mujhe hamesha ‘apna’ bana ke rakhta hai 🫶",
+"Tu mera favorite person hai duniya me 🌍❤️",
+"Tu mujhe hamesha yaad dilata hai ki I’m loved 🥺",
+"Kyuki tu meri life ka best glitch hai 🎮💕",
+"Tu mujhe hamesha smile mode me la deta hai 😭",
+"Hum dono ka love chaotic hai… but pure hai ❤️",
+"Kyuki tu mujhe hamesha priority banata hai 🫶",
+"Tu mera Teju aur main teri Isha forever 💕"
 ];
 
 /* =========================
