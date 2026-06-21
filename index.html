@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,66 +14,138 @@
 
 <body>
 
+<!-- 🌸 Falling Petals Container -->
 <div id="petals"></div>
 
-<!-- PASSWORD SCREEN -->
+<!-- 🔐 PASSWORD SCREEN -->
 <div id="lockScreen">
-  <div class="lockCard">
-    <h1>💖 Enter Password</h1>
-    <p>This little world was made just for you.</p>
+    <div class="lockCard">
+        <h1>💖 Enter Password</h1>
+        <p>This little world was made just for you.</p>
 
-    <input type="password" id="passwordInput" placeholder="Password">
-    <button class="primaryBtn" id="unlockBtn">Unlock</button>
+        <input
+            type="password"
+            id="passwordInput"
+            placeholder="Password"
+        >
 
-    <div class="error" id="passwordError"></div>
-  </div>
+        <button
+            class="primaryBtn"
+            id="unlockBtn"
+        >
+            Unlock
+        </button>
+
+        <div
+            class="error"
+            id="passwordError"
+        ></div>
+    </div>
 </div>
 
-<!-- MAIN APP -->
+<!-- 🌸 MAIN APP -->
 <div id="app">
 
-  <div class="controls">
-    <button class="secondaryBtn" id="modeBtn">🌙 Dark Mode</button>
-    <button class="secondaryBtn" id="resetBtn">🔁 Reset</button>
-  </div>
+    <div class="controls">
+        <button
+            class="secondaryBtn"
+            id="modeBtn"
+        >
+            🌙 Dark Mode
+        </button>
 
-  <section class="hero">
-    <h1>🌸 reasons ......🤔?</h1>
-    <p>Open each letter slowly.</p>
-
-    <div class="progressWrapper">
-      <div class="progressBar">
-        <div class="progressFill" id="progressFill"></div>
-      </div>
-      <div class="progressText">
-        Opened <span id="count">0</span>/100
-      </div>
+        <button
+            class="secondaryBtn"
+            id="resetBtn"
+        >
+            🔁 Reset
+        </button>
     </div>
-  </section>
 
-  <section class="gardenSection">
-    <h2 class="gardenTitle">🌸 Memory Garden</h2>
-    <div id="garden"></div>
-  </section>
+    <!-- HERO -->
+    <section class="hero">
+        <h1>🌸 100 Reasons 🤔?</h1>
 
-  <div class="container" id="letters"></div>
+        <p>Open each letter slowly.</p>
+
+        <div class="progressWrapper">
+
+            <div class="progressBar">
+                <div
+                    class="progressFill"
+                    id="progressFill"
+                ></div>
+            </div>
+
+            <div class="progressText">
+                Opened
+                <span id="count">0</span>/100
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MEMORY GARDEN -->
+    <section class="gardenSection">
+
+        <h2 class="gardenTitle">
+            🌸 Memory Garden
+        </h2>
+
+        <div id="garden"></div>
+
+    </section>
+
+    <!-- LETTERS -->
+    <div
+        class="container"
+        id="letters"
+    ></div>
 
 </div>
 
-<!-- MODAL -->
-<div class="modal" id="modal">
-  <div class="paper">
-    <h2 id="letterTitle"></h2>
-    <div id="letterText"></div>
+<!-- 💌 LETTER MODAL -->
+<div
+    class="modal"
+    id="modal"
+>
 
-    <div class="modalButtons">
-      <button class="secondaryBtn" id="prevBtn">⬅ Prev</button>
-      <button class="secondaryBtn" id="nextBtn">Next ➡</button>
-      <button class="primaryBtn" id="closeBtn">Close</button>
+    <div class="paper">
+
+        <h2 id="letterTitle"></h2>
+
+        <div id="letterText"></div>
+
+        <div class="modalButtons">
+
+            <button
+                class="secondaryBtn"
+                id="prevBtn"
+            >
+                ⬅ Prev
+            </button>
+
+            <button
+                class="secondaryBtn"
+                id="nextBtn"
+            >
+                Next ➡
+            </button>
+
+            <button
+                class="primaryBtn"
+                id="closeBtn"
+            >
+                Close
+            </button>
+
+        </div>
+
     </div>
-  </div>
+
 </div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
