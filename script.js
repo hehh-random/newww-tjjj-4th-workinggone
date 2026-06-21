@@ -1,159 +1,454 @@
 const PASSWORD = "2524";
 
-const reasons = Array.from({ length: 100 }, (_, i) => `Reason ${i + 1} ❤️`);
+/* =========================
+   REASONS
+========================= */
+
+const reasons = Array.from(
+    { length: 100 },
+    (_, i) => `Reason ${i + 1} ❤️`
+);
+
+/* =========================
+   STATE
+========================= */
 
 let currentLetter = 0;
-let openedLetters = JSON.parse(localStorage.getItem("openedLetters") || "[]");
+
+let openedLetters =
+    JSON.parse(
+        localStorage.getItem("openedLetters")
+    ) || [];
+
+let petalInterval = null;
+
+/* =========================
+   ELEMENTS
+========================= */
 
 const app = document.getElementById("app");
 const lockScreen = document.getElementById("lockScreen");
-const passwordInput = document.getElementById("passwordInput");
-const passwordError = document.getElementById("passwordError");
 
-const lettersContainer = document.getElementById("letters");
-const modal = document.getElementById("modal");
-const letterTitle = document.getElementById("letterTitle");
-const letterText = document.getElementById("letterText");
+const passwordInput =
+    document.getElementById("passwordInput");
 
-const progressFill = document.getElementById("progressFill");
-const count = document.getElementById("count");
+const passwordError =
+    document.getElementById("passwordError");
 
-document.getElementById("unlockBtn").onclick = unlockApp;
+const lettersContainer =
+    document.getElementById("letters");
+
+const modal =
+    document.getElementById("modal");
+
+const letterTitle =
+    document.getElementById("letterTitle");
+
+const letterText =
+    document.getElementById("letterText");
+
+const progressFill =
+    document.getElementById("progressFill");
+
+const count =
+    document.getElementById("count");
+
+const garden =
+    document.getElementById("garden");
+
+/* =========================
+   LOAD SETTINGS
+========================= */
+
+if (
+    localStorage.getItem("darkMode") === "true"
+) {
+    document.body.classList.add("night");
+}
+
+/* =========================
+   PASSWORD
+========================= */
+
+document
+    .getElementById("unlockBtn")
+    .addEventListener(
+        "click",
+        unlockApp
+    );
+
+passwordInput.addEventListener(
+    "keydown",
+    (e) => {
+        if (e.key === "Enter") {
+            unlockApp();
+        }
+    }
+);
 
 function unlockApp() {
-    if (passwordInput.value.trim() === PASSWORD) {
+
+    if (
+        passwordInput.value.trim() === PASSWORD
+    ) {
+
         lockScreen.style.display = "none";
         app.style.display = "block";
 
         buildLetters();
         updateProgress();
         updateGarden();
+
         startPetals();
+
     } else {
-        passwordError.textContent = "Wrong password ";
+
+        passwordError.textContent =
+            "❌ Wrong password";
+
     }
 }
 
+/* =========================
+   BUILD LETTERS
+========================= */
+
 function buildLetters() {
+
     lettersContainer.innerHTML = "";
 
-    reasons.forEach((_, index) => {
-        const letter = document.createElement("div");
+    reasons.forEach((reason, index) => {
+
+        const letter =
+            document.createElement("div");
+
         letter.className = "letter";
 
-        // 💌 seal
-        const seal = document.createElement("div");
-        seal.className = "seal";
-
-        // 💔 mark opened letters visually
-        if (openedLetters.includes(index)) {
+        if (
+            openedLetters.includes(index)
+        ) {
             letter.classList.add("opened");
         }
 
+        const seal =
+            document.createElement("div");
+
+        seal.className = "seal";
+
         letter.appendChild(seal);
 
-        letter.onclick = () => openLetter(index);
+        letter.addEventListener(
+            "click",
+            () => openLetter(index)
+        );
 
         lettersContainer.appendChild(letter);
+
     });
 }
 
+/* =========================
+   OPEN LETTER
+========================= */
+
 function openLetter(index) {
+
     currentLetter = index;
 
-    if (!openedLetters.includes(index)) {
+    if (
+        !openedLetters.includes(index)
+    ) {
+
         openedLetters.push(index);
-        localStorage.setItem("openedLetters", JSON.stringify(openedLetters));
+
+        localStorage.setItem(
+            "openedLetters",
+            JSON.stringify(openedLetters)
+        );
 
         updateProgress();
         updateGarden();
-        rebuildLetters();
+        buildLetters();
     }
 
     modal.style.display = "flex";
-    letterTitle.textContent = `Letter ${index + 1}`;
 
     if (index === 99) {
-        letterTitle.textContent = "💖 FINAL LETTER 💖";
+
+        letterTitle.textContent =
+            "💖 FINAL LETTER 💖";
+
         typeWriter(
-            "You opened all 100 reasons... and I still have infinite more for you ❤️",
+            "You opened all 100 reasons... and I still have infinitely more reasons to love you ❤️",
             letterText,
-            20
+            25
         );
+
     } else {
-        typeWriter(reasons[index], letterText, 20);
+
+        letterTitle.textContent =
+            `Letter ${index + 1}`;
+
+        typeWriter(
+            reasons[index],
+            letterText,
+            25
+        );
     }
 }
 
-/* 💌 refresh letters so they visually “open” */
-function rebuildLetters() {
-    buildLetters();
+/* =========================
+   TYPEWRITER
+========================= */
+
+let typingInterval;
+
+function typeWriter(
+    text,
+    element,
+    speed = 25
+) {
+
+    clearInterval(typingInterval);
+
+    element.textContent = "";
+
+    let i = 0;
+
+    typingInterval = setInterval(() => {
+
+        element.textContent += text.charAt(i);
+
+        i++;
+
+        if (i >= text.length) {
+            clearInterval(
+                typingInterval
+            );
+        }
+
+    }, speed);
 }
 
-/* 🌸 FIXED MEMORY GARDEN (NO DUPLICATES, CLEAN ORDER) */
+/* =========================
+   MEMORY GARDEN
+========================= */
+
 function updateGarden() {
-    const garden = document.getElementById("garden");
-    if (!garden) return;
 
     garden.innerHTML = "";
 
-    openedLetters.forEach((i) => {
-        const span = document.createElement("span");
+    const flowers = [
+        "🌷",
+        "🌸",
+        "🌹",
+        "🌺",
+        "🪻"
+    ];
 
-        const emojis = ["🌷", "🌷", "🌷"];
-        span.textContent = emojis[i % emojis.length];
+    openedLetters.forEach((index) => {
 
-        span.className = "flower";
+        const flower =
+            document.createElement("span");
 
-        garden.appendChild(span);
+        flower.className = "flower";
+
+        flower.textContent =
+            flowers[
+                index % flowers.length
+            ];
+
+        garden.appendChild(flower);
+
     });
 }
 
-/* 📊 progress */
+/* =========================
+   PROGRESS
+========================= */
+
 function updateProgress() {
-    count.textContent = openedLetters.length;
-    progressFill.style.width = `${(openedLetters.length / 100) * 100}%`;
+
+    count.textContent =
+        openedLetters.length;
+
+    progressFill.style.width =
+        `${openedLetters.length}%`;
 }
 
-/* 💌 modal controls */
-document.getElementById("closeBtn").onclick = () => {
+/* =========================
+   MODAL
+========================= */
+
+document
+    .getElementById("closeBtn")
+    .addEventListener(
+        "click",
+        closeModal
+    );
+
+function closeModal() {
+
     modal.style.display = "none";
-};
+}
 
-document.getElementById("nextBtn").onclick = () => {
-    if (currentLetter < 99) openLetter(currentLetter + 1);
-};
+modal.addEventListener(
+    "click",
+    (e) => {
 
-document.getElementById("prevBtn").onclick = () => {
-    if (currentLetter > 0) openLetter(currentLetter - 1);
-};
+        if (e.target === modal) {
+            closeModal();
+        }
 
-document.getElementById("modeBtn").onclick = () => {
-    document.body.classList.toggle("night");
-};
+    }
+);
 
-document.getElementById("resetBtn").onclick = () => {
-    localStorage.removeItem("openedLetters");
-    location.reload();
-};
+/* =========================
+   NEXT LETTER
+========================= */
 
-/* 🌸 PETALS */
-function spawnPetal() {
-    const petal = document.createElement("div");
-    petal.className = "petal";
+document
+    .getElementById("nextBtn")
+    .addEventListener(
+        "click",
+        () => {
 
-    const emojis = ["🌸", "🍁", "💮", "🫧", "🍂"];
-    petal.innerText = emojis[Math.floor(Math.random() * emojis.length)];
+            if (
+                currentLetter < 99
+            ) {
+                openLetter(
+                    currentLetter + 1
+                );
+            }
 
-    petal.style.left = Math.random() * window.innerWidth + "px";
-    petal.style.animationDuration = 3 + Math.random() * 4 + "s";
-    petal.style.fontSize = 12 + Math.random() * 18 + "px";
+        }
+    );
 
-    document.body.appendChild(petal);
+/* =========================
+   PREVIOUS LETTER
+========================= */
 
-    setTimeout(() => petal.remove(), 8000);
+document
+    .getElementById("prevBtn")
+    .addEventListener(
+        "click",
+        () => {
+
+            if (
+                currentLetter > 0
+            ) {
+                openLetter(
+                    currentLetter - 1
+                );
+            }
+
+        }
+    );
+
+/* =========================
+   DARK MODE
+========================= */
+
+document
+    .getElementById("modeBtn")
+    .addEventListener(
+        "click",
+        () => {
+
+            document.body.classList.toggle(
+                "night"
+            );
+
+            localStorage.setItem(
+                "darkMode",
+                document.body.classList.contains(
+                    "night"
+                )
+            );
+        }
+    );
+
+/* =========================
+   RESET
+========================= */
+
+document
+    .getElementById("resetBtn")
+    .addEventListener(
+        "click",
+        () => {
+
+            if (
+                confirm(
+                    "Reset all opened letters?"
+                )
+            ) {
+
+                localStorage.removeItem(
+                    "openedLetters"
+                );
+
+                location.reload();
+            }
+        }
+    );
+
+/* =========================
+   PETALS
+========================= */
+
+function createPetal() {
+
+    const petal =
+        document.createElement("div");
+
+    petal.classList.add("petal");
+
+    petal.style.left =
+        Math.random() *
+            window.innerWidth +
+        "px";
+
+    const size =
+        Math.random() * 12 + 10;
+
+    petal.style.width =
+        size + "px";
+
+    petal.style.height =
+        size + "px";
+
+    petal.style.opacity =
+        Math.random() * 0.5 + 0.5;
+
+    petal.style.animationDuration =
+        Math.random() * 6 + 6 + "s";
+
+    document
+        .getElementById("petals")
+        .appendChild(petal);
+
+    setTimeout(() => {
+        petal.remove();
+    }, 12000);
 }
 
 function startPetals() {
-    setInterval(spawnPetal, 250);
+
+    if (petalInterval) return;
+
+    petalInterval = setInterval(
+        () => {
+
+            createPetal();
+
+            if (
+                Math.random() > 0.5
+            ) {
+                createPetal();
+            }
+
+        },
+        300
+    );
 }
