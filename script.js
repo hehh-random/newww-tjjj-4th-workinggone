@@ -506,34 +506,51 @@ PETALS
 
 function createPetal() {
 
+    const petal =
+        document.createElement("div");
 
-const petal =
-    document.createElement("div");
+    petal.classList.add("petal");
 
-petal.classList.add("petal");
+    petal.style.left =
+        Math.random() *
+        window.innerWidth +
+        "px";
 
-petal.style.left =
-    Math.random() * window.innerWidth + "px";
+    const size =
+        Math.random() * 12 + 10;
 
-document
-    .getElementById("petals")
-    .appendChild(petal);
+    petal.style.width =
+        size + "px";
 
-setTimeout(() => {
-    petal.remove();
-}, 12000);
+    petal.style.height =
+        size + "px";
 
+    petal.style.opacity =
+        Math.random() * 0.5 + 0.5;
 
+    petal.style.animationDuration =
+        Math.random() * 6 + 6 + "s";
+
+    document
+        .getElementById("petals")
+        .appendChild(petal);
+
+    setTimeout(() => {
+        petal.remove();
+    }, 12000);
 }
 
 function startPetals() {
 
+    if (petalInterval) return;
 
-if (petalInterval) return;
+    petalInterval = setInterval(() => {
 
-petalInterval = setInterval(() => {
-    createPetal();
-}, 300);
+        createPetal();
 
+        if (Math.random() > 0.5) {
+            createPetal();
+        }
 
+    }, 300);
 }
