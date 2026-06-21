@@ -531,6 +531,9 @@ const size =
     petal.style.animationDuration =
     Math.random() * 8 + 8 + "s";
 
+    petal.style.filter =
+    blur(${Math.random()*1.5}px);
+
     document
         .getElementById("petals")
         .appendChild(petal);
