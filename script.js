@@ -533,7 +533,7 @@ const size =
 
     petal.style.filter =
     `blur(${Math.random()*1.5}px)`;
-    
+
     document
         .getElementById("petals")
         .appendChild(petal);
