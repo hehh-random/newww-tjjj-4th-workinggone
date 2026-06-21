@@ -260,7 +260,6 @@ unlockApp();
 function unlockApp() {
 if (passwordInput.value.trim() === PASSWORD) {
 
-```
     lockScreen.style.display = "none";
     app.style.display = "block";
 
@@ -273,7 +272,7 @@ if (passwordInput.value.trim() === PASSWORD) {
 } else {
     passwordError.textContent = "❌ Wrong password";
 }
-```
+
 
 }
 
@@ -283,7 +282,7 @@ BUILD LETTERS
 
 function buildLetters() {
 
-```
+
 lettersContainer.innerHTML = "";
 
 reasons.forEach((reason, index) => {
@@ -306,7 +305,7 @@ reasons.forEach((reason, index) => {
 
     lettersContainer.appendChild(letter);
 });
-```
+
 
 }
 
@@ -316,7 +315,6 @@ OPEN LETTER
 
 function openLetter(index) {
 
-```
 currentLetter = index;
 
 if (!openedLetters.includes(index)) {
@@ -343,7 +341,7 @@ typeWriter(
     letterText,
     25
 );
-```
+
 
 }
 
@@ -355,7 +353,7 @@ let typingInterval;
 
 function typeWriter(text, element, speed = 25) {
 
-```
+
 clearInterval(typingInterval);
 
 element.textContent = "";
@@ -373,7 +371,7 @@ typingInterval = setInterval(() => {
     }
 
 }, speed);
-```
+
 
 }
 
@@ -383,7 +381,7 @@ MEMORY GARDEN
 
 function updateGarden() {
 
-```
+
 garden.innerHTML = "";
 
 openedLetters.forEach(() => {
@@ -396,7 +394,7 @@ openedLetters.forEach(() => {
 
     garden.appendChild(flower);
 });
-```
+
 
 }
 
@@ -406,13 +404,13 @@ PROGRESS
 
 function updateProgress() {
 
-```
+
 count.textContent =
     openedLetters.length;
 
 progressFill.style.width =
     `${(openedLetters.length / reasons.length) * 100}%`;
-```
+
 
 }
 
@@ -442,12 +440,12 @@ document
 .getElementById("nextBtn")
 .addEventListener("click", () => {
 
-```
+
     if (currentLetter < reasons.length - 1) {
         openLetter(currentLetter + 1);
     }
 });
-```
+
 
 /* =========================
 PREVIOUS LETTER
@@ -457,12 +455,12 @@ document
 .getElementById("prevBtn")
 .addEventListener("click", () => {
 
-```
+
     if (currentLetter > 0) {
         openLetter(currentLetter - 1);
     }
 });
-```
+
 
 /* =========================
 DARK MODE
@@ -472,7 +470,7 @@ document
 .getElementById("modeBtn")
 .addEventListener("click", () => {
 
-```
+
     document.body.classList.toggle("night");
 
     localStorage.setItem(
@@ -480,7 +478,7 @@ document
         document.body.classList.contains("night")
     );
 });
-```
+
 
 /* =========================
 RESET
@@ -490,7 +488,7 @@ document
 .getElementById("resetBtn")
 .addEventListener("click", () => {
 
-```
+
     if (confirm("Reset all opened letters?")) {
 
         localStorage.removeItem(
@@ -500,7 +498,7 @@ document
         location.reload();
     }
 });
-```
+
 
 /* =========================
 PETALS
@@ -508,7 +506,7 @@ PETALS
 
 function createPetal() {
 
-```
+
 const petal =
     document.createElement("div");
 
@@ -524,18 +522,18 @@ document
 setTimeout(() => {
     petal.remove();
 }, 12000);
-```
+
 
 }
 
 function startPetals() {
 
-```
+
 if (petalInterval) return;
 
 petalInterval = setInterval(() => {
     createPetal();
 }, 300);
-```
+
 
 }
