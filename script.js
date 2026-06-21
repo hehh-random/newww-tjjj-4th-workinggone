@@ -267,7 +267,7 @@ openedLetters.forEach(() => {
         document.createElement("span");
 
     flower.className = "flower";
-    flower.textContent = "🌸","💮","🪷","🌷",;
+    flower.textContent = "🌸";
 
     garden.appendChild(flower);
 });
