@@ -23,7 +23,7 @@ const reasons = [
 "Tu hamesha meri side leta hai(side leni padhegii tujeee😛)",
 "chikne 😏 jada kush mt ho🥲",
 "Tere saath silence bhi comfortable lagta hai 😏fhir bhi bolte raha kr😛",
-"Tu meri mood swings ko bhi jhel kar leta hai🥲",
+"Tu mere har mood swings ko bhi jhel leta hai🥲",
 " htttt🥲(likhte tem hi merko feeling ari ki reaction kesa hoga🙂)",
 "Tu mujhe ignore nahi karta, even when I act annoying 😏(annoying toh kabhi hoti hi no😏)",
 "tu mera safe place hai without even trying 😭😚",
