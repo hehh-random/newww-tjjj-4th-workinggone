@@ -32,7 +32,7 @@ const reasons = [
 "dono ka fight, 5 min ka drama + lifetime ka patch-up 😏",
 "Tu mujhe hamesha samajhne ki koshish karta hai 🥲🫠",
 "tu meri overthinking ko bhi handle kar leta hai 🫶(kudhki overthinking ka ky😏 usko bhi kr handle)",
-"Tu mujhe hamesha priority feel karwata hai 😏",
+"Tu mujhe hamesha 1st priority feel karwata hai 😏",
 "Main kitni bhi ladhti hu, tu phir bhi ruk jata h😭",
 "Tu meri har jealousy ko cute bana deta hai 😛",
 "tu merko ‘betuuu,bachaaa’ kehke special feel karwata hai 😭",
