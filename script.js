@@ -89,10 +89,7 @@ const reasons = [
 "mere bina reh loge kya??😒(ha ka option nahi h😏)",
 
 "ek baat bolu??😭(rehne do sharam aa rhi h😔)",
-"Bas itna hi kehna tha... 
-Thank you meri life me aane ke liye. Har ladaii, har hasi, har ff match, har late night baat... 
-sab meri favourite memories hain. I know mai drama karti hu 😭 but i really love you bohot bohot bohot zyada.Promise 
-karna hamesha aise hi mera haath pakad ke rakhegaa and hameshaaa sath rahegaaaa. loveee youuu bachaaa💋🫠",
+"Bas itna hi kehna tha... Thank you meri life me aane ke liye. Har ladaii, har hasi, har ff match, har late night baat... sab meri favourite memories hain. I know mai drama karti hu 😭 but i really love you bohot bohot bohot zyada. Promise karna hamesha aise hi mera haath pakad ke rakhegaa and hameshaaa sath rahegaaaa. loveee youuu bachaaa💋🫠",
 ];
 
 /* =========================
