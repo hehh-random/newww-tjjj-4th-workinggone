@@ -171,11 +171,14 @@ if (passwordInput.value.trim() === PASSWORD) {
 
     startPetals();
 
+    // 🎵 ADD THIS
+    const music = document.getElementById("bgMusic");
+    music.volume = 0.5; // optional
+    music.play();
+
 } else {
     passwordError.textContent = "❌ Wrong password";
 }
-
-
 }
 
 /* =========================
