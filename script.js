@@ -5,13 +5,14 @@ REASONS
 ========================= */
 
 const reasons = [
-"Teju, tu itna calm hai ki meri pura drama bhi shaant ho jata hai 😭❤️",
-"Kyuki tu hamesha mujhe handle karta hai even when I act crazy 😤❤️",
-"Free Fire me tu mera teammate nahi, mera backbone hai 🎮❤️",
-"Hum hamesha ladte hain… but end me tu hi mujhe mana leta hai 🥺",
-"Teri voice sunke hi mera mood 100x better ho jata hai 🎧❤️",
-"Tu mujhe overthink karne se rok leta hai bina kuch bole 💭❤️",
-"Isha ka drama + Teju ka calm = perfect chaos combo 😭❤️",
+"sure ready???(tu ready h mehh noii🥲)",
+"tu hamesha(kabhi kabhi shutup) mujhe handle karta hai KESEEEE🤨",
+"Ff mai tu mera teammate nahi, mera backbone hai 😭",
+"Hum hamesha ladte hain… but end mai ek dusre ko mana hi leta hai 😏",
+"Teri voice sunke hi mera mood 100x better ho jata hai 😛",
+"Tu mujhe overthink karne se rok leta hai bina kuch bole 😭",
+"Isha(jiya) ka drama + Teju ka calm = perfect combo 👹",
+
 "Kyuki tu mujhe hamesha importance deta hai even when I act rude 😤❤️",
 "Tu protect karta hai mujhe, even from my own thoughts 🫶",
 "Hum dono toxic nahi… bas thode pagal hain ek dusre ke liye 🤭",
