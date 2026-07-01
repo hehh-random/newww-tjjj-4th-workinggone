@@ -39,7 +39,7 @@ const reasons = [
 "Teju + Isha = chaotic but real 😏",
 "Tu mujhe hamesha calm kar deta hai bina lecture diye💋(but gussah kalta h😔)",
 "dono ka pyar stronger hai💪😭 ",
-"Kyuki tu mujhe kabhi replace nahi karta😏(kr ke dikha maar dalugi)",
+"kyuki tu mujhe kabhi replace nahi karta😏(kr ke dikha maar dalugi)",
 "Tu mera gamer partner bhi hai aur life partner bhiiii👹",
 "Tu hamesha smile karwa deta KESEEEE😭",
 "ab toh ap hi melaa emotional support ban gaye ho😙",
