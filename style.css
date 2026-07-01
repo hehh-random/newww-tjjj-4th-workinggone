@@ -532,3 +532,16 @@ button{
     gap:10px;
     padding:20px;
 }
+#resetModal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.75);
+    z-index: 999;
+}
+
+#resetModal .paper {
+    text-align: center;
+}

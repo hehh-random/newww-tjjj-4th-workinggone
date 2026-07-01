@@ -389,19 +389,19 @@ document
 RESET
 ========================= */
 
-document
-.getElementById("resetBtn")
-.addEventListener("click", () => {
+const resetModal = document.getElementById("resetModal");
 
+document.getElementById("resetBtn").addEventListener("click", () => {
+    resetModal.style.display = "flex";
+});
 
-    if (confirm("Reset all opened letters?")) {
+document.getElementById("cancelResetBtn").addEventListener("click", () => {
+    resetModal.style.display = "none";
+});
 
-        localStorage.removeItem(
-            "openedLetters"
-        );
-
-        location.reload();
-    }
+document.getElementById("confirmResetBtn").addEventListener("click", () => {
+    localStorage.removeItem("openedLetters");
+    location.reload();
 });
 
 
