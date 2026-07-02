@@ -36,7 +36,7 @@ const reasons = [
 "Mai kitna bhi ladhti hu, tu phir bhi ruk jata h😭",
 "Tu meri har jealousy ko cute bana deta hai 😛",
 "‘betuuu,bachaaa’ kehke special feel krwata hai 😭",
-"Teju + Isha = chaotic but real 😏",
+"baki ka kal padh lena🙂",
 "Tu mujhe hamesha calm kr deta hai bina lecture diye💋(but gussah kalta h😔)",
 "dono ka pyar stronger hai💪😭 ",
 "kyuki tu mujhe kabhi replace nahi krta😏(kr ke dikha maar dalugi)",
