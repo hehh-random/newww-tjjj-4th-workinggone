@@ -95,7 +95,6 @@ const reasons = [
 "future mai bhi ye padhna😚",
 "ab itna bhi cutie bhi mt lago... distract hojati hu😒💋",
 "Terms & Conditions : hmesha mere rehna... cancel option available nhi h😌",
-"tere bina complain kis se krugi 😔😭",
 "tu sirf banda nhi... adat h🥲",
 "4 months hi hue h... aur itni aadat lg gyi apki🥲",
 "ek din apko itna tang krungii real mai😈",
