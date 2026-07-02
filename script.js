@@ -73,7 +73,7 @@ const reasons = [
 "Meri life ka best plot twist hai tuu 😭",
 "Meri bak bak ka lifetime subscription le rakha h apne... cancel nahi hogi 😛",
 "Ab itna padh liya hai toh thank you bhi bol do 😤",
-"Apko tang kiye bina mera din complete hi nahi hota 😭",
+"Apko tang kiye bina mera din complete hi nahi hota 😭(wese letter ka number dekh - us whennnn😛)",
 "Jyada udd mat... pankh kaat dungi 😭",
 "Apki choice toh mast hai... mujhe choose kiya 😭",
 "Jyada kush mt ho... password mere paas hai 😈(betee gussa aya toh pass change kr dungi😛)",
