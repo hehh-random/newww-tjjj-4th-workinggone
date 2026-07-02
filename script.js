@@ -38,7 +38,7 @@ const reasons = [
 "‘betuuu,bachaaa’ kehke special feel krwata hai 😭",
 "baki ka kal padh lena🙂",
 "Tu mujhe hamesha calm kr deta hai bina lecture diye💋(but gussah kalta h😔)",
-"dono ka pyar stronger hai💪😭 ",
+"dono ka pyar stronge hai💪😭 ",
 "kyuki tu mujhe kabhi replace nahi krta😏(kr ke dikha maar dalugi)",
 "Tu mera gamer partner bhi hai aur life partner bhiiii👹",
 "Tu hamesha smile krwa deta KESEEEE😭",
