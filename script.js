@@ -104,7 +104,7 @@ const reasons = [
 "isme kuch khaas nhi h😛 continue kro🥲 ",
 "bsss itiii hii haii banddd krrr abbbb🙂",
 "ek baat bolu??😭(rehne do sharam aa rhi h😔)",
-"Bas itna hi kehna tha... Thank you meri life mai aane ke liye. Har ladaii.. har hasi.. har ff match.. har late night baat... sab meri favourite memories hain. I know mai drama krti hu 😭 but i really love you bohot bohot bohot zyada. Promise krna hamesha aise hi mera haath pakad ke rakhegaa and hameshaaa sath rahegaaaa. loveee youuu bachaaa💋🫠",
+"Bas itna hi kehna tha... Thank you meri life mai aane ke liye. Har ladaii.. har hasi.. har ff match.. har late night baat... sab meri favourite memories hain. I know mai drama krti hu 😭 but i really love you bohot bohot bohot zyada. Promise krna hamesha aise hi mera haath pakad ke rakhegaa and hameshaaa sath rahegaaaa,kabhi nahi jayegaa tb chaye kitna bhi ladai ho jaye end mai solve hi karegeee pinkyyyy promisssseeee. loveee youuu bachaaa💋🫠",
 ];
 
 /* =========================
