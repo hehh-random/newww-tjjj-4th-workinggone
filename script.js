@@ -14,12 +14,12 @@ const reasons = [
 "Isha(jiya) ka drama + Teju ka calm = perfect combo 👹",
 "ap mujhe hamesha importance/time deta hai even when I act rude🫤",
 "Tu protect krta hai mujhe, even from my own thoughts 🫠",
-"Ham dono toxic nahi… bas thode pagal hain ek dusre ke liye 🥲",
+"Ham dono toxic nahi… bas thode pagal hai ek dusre ke liye 🥲",
 "Tere voice note sunke jo sukun milta h(shut up)😭",
 "Free Fire mai bhi tu mujhe revive krta hai,aur real life mai bhi 😛",
 "tu meri har nonsense baat sun leta hai (hamesha sense bhari baate krti hu😏)",
 "Tu mujhe itna janta hai jitna main khud ko nahi janti 🥲",
-"Ham ladte hain for no reason… but pyar bhi wahi se strong hota hai 😙",
+"Ham ladte hai for no reason… but pyar bhi wahi se strong hota hai 😙",
 "Tu hamesha meri side leta hai(side leni padhegii tujeee😛)",
 "chikne 😏 jada kush mt ho🥲",
 "Tere sath silence bhi comfortable lagta hai 😏fhir bhi bolte raha kr😛",
@@ -67,7 +67,7 @@ const reasons = [
 "jab care krte ho..tb alag hi sukoon milta hai 😭",
 "tu meri har bakwaas sun leta hai 😈",
 "Ab toh meliii favourite habit ban gaye ho 😭",
-"Ham ladte hain daily… but miss bhi daily krti huu 🫠",
+"Ham ladte hai daily… but miss bhi daily krti huu 🫠",
 "Kyuki tu mujhe kabhi give up nahi krne deta😚",
 "Kabhi kabhi bas ek hug krne ka mann krta hai 🥲",
 "Meri life ka best plot twist hai tuu 😭",
@@ -104,7 +104,7 @@ const reasons = [
 "isme kuch khaas nhi h😛 continue kro🥲 ",
 "bsss itiii hii haii banddd krrr abbbb🙂",
 "ek baat bolu??😭(rehne do sharam aa rhi h😔)",
-"Bas itna hi kehna tha... Thank you meri life mai aane ke liye. Har ladaii.. har hasi.. har ff match.. har late night baat... sab meri favourite memories hain. I know mai drama krti hu 😭 but i really love you bohot bohot bohot zyada. Promise krna hamesha aise hi mera haath pakad ke rakhegaa and hameshaaa sath rahegaaaa,kabhi nahi jayegaa tb chaye kitna bhi ladai ho jaye end mai solve hi karegeee pinkyyyy promisssseeee. loveee youuu bachaaaaaaa💋🫠",
+"Bas itna hi kehna tha... Thank you meri life mai aane ke liye. Har ladaii.. har hasi.. har ff match.. har late night baat... sab meri favourite memories hai. I know mai drama krti hu 😭 but i really love you bohot bohot bohot zyada. Promise krna hamesha aise hi mera haath pakad ke rakhegaa and hameshaaa sath rahegaaaa,kabhi nahi jayegaa tb chaye kitna bhi ladai ho jaye end mai solve hi karegeee pinkyyyy promisssseeee. loveee youuu bachaaaaaaa💋🫠",
 ];
 
 /* =========================
