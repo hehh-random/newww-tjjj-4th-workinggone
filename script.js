@@ -47,7 +47,7 @@ const reasons = [
 "Tu mujhe hamesha feel krwata hai ki I matter 🫶😙",
 "meri stupid baato ko seriouse noiih letaa😛",
 "ik todheee (sirf todhe) drame krti hu buttt jhelne padhegee apkooo😙",
-"😭apke wo paragraphs🫠",
+"😭apke wo paragraphs🫠ladai ke baad sukoon de dete h🫣",
 "Tu mujhe kabhi akela feel nahi hone deta 🫤😭",
 "ap meleee protector bhi hai aur best friend bhi 💋",
 "apun ka tuuu apun teraaa😙💪",
